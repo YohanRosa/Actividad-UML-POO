@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="3LqAYeRIfjKoeqWi2yIo">
+    <mxGraphModel dx="1414" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0yRFisEXAC0-sM-qsi-a-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Factura&lt;br&gt;&amp;nbsp;────────────────────────────&lt;br/&gt;&lt;br&gt;- numeroPieza : String&lt;br/&gt;&lt;br&gt;- descripcionPieza : String&lt;br/&gt;&lt;br&gt;- cantidad : int&lt;br/&gt;&lt;br&gt;- precioArticulo : double&lt;br&gt;&amp;nbsp;────────────────────────────&lt;br/&gt;&lt;br&gt;+ Factura(numeroPieza:String, descripcionPieza:String, cantidad:int, precioArticulo:double)&lt;br/&gt;+ obtenerMontoFactura() : double" vertex="1">
+          <mxGeometry height="240" width="440" x="137.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0yRFisEXAC0-sM-qsi-a-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Empleado&lt;br&gt;&amp;nbsp;────────────────────────────&lt;br/&gt;&lt;br&gt;- nombre : String&lt;br/&gt;&lt;br&gt;- apellidoPaterno : String&lt;br/&gt;&lt;br&gt;- salarioMensual : double&lt;br/&gt;&lt;br&gt;────────────────────────────&lt;br/&gt;&lt;br&gt;+ Empleado(nombre:String, apellidoPaterno:String, salarioMensual:double)&lt;br/&gt;&lt;br&gt;+ obtenerSalarioAnual() : double&lt;br/&gt;+ aumentarSalario() : void" vertex="1">
+          <mxGeometry height="230" width="370" x="172.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0yRFisEXAC0-sM-qsi-a-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fecha&lt;br/&gt;&lt;br&gt;────────────────────────────&lt;br/&gt;&lt;br&gt;- mes : int&lt;br/&gt;- dia : int&lt;br/&gt;&lt;br&gt;- anio : int&lt;br&gt;&amp;nbsp;────────────────────────────&lt;br/&gt;&lt;br&gt;+ Fecha(mes:int, dia:int, anio:int)&lt;br&gt;&amp;nbsp;+ mostrarFecha() : void" vertex="1">
+          <mxGeometry height="190" width="255" x="230" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
